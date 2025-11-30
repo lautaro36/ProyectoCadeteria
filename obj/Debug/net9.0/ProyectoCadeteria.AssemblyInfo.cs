@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoCadeteria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eb7ab2ad8267ae548047ccc7163c6af5f7f93c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4edcb3bf9e4ad79c02a763dda84ae46118dbe490")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoCadeteria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoCadeteria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
