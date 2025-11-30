@@ -6,14 +6,15 @@ public class Cliente
     public string? Nombre { get; set; }
     public string? Direccion { get; set; }
     public string? Telefono { get; set; }
+    public int? IdPedido { get; set; }
+    public Cliente() { }
 
-    public Cliente(){}
-
-    public Cliente(int? id, string? nombre, string? direccion, string? telefono)
+    public Cliente(int? id, string? nombre, string? direccion, string? telefono, int? idPedido)
     {
         Id = id;
         Nombre = nombre;
         Direccion = direccion;
         Telefono = telefono;
+        IdPedido = idPedido;
     }
 }

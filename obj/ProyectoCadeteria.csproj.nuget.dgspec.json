@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
         "projectName": "ProyectoCadeteria",
-        "projectPath": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,3 @@
-using ProyectoCadeteria.Models;
 
 namespace ProyectoCadeteria.Models;
 

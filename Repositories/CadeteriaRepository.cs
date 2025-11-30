@@ -1,15 +1,16 @@
 using ProyectoCadeteria.Models;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Options;
+using ProyectoCadeteria.Options;
 
 namespace ProyectoCadeteria.Repositories;
 
 public class CadeteriaRepository : ICadeteriaRepository
 {
     private readonly string _stringConnection;
-    public CadeteriaRepository(IOptions<DataBaseOptions> options)
+    public CadeteriaRepository(IOptions<DatabaseOptions> options)
     {
-        _stringConnection = options.Value.stringConnection;
+        _stringConnection = options.Value.StringConnection;
     }
     public SqliteConnection GetOpenConnection()
     {

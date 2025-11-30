@@ -9,12 +9,13 @@ public class Pedido
     public int? IdCadete { get; set; }
     public Pedido() { }
 
-    public Pedido(int? id, string? obs, EstadosPosibles estado, Cliente? cliente)
+    public Pedido(int? id, string? obs, EstadosPosibles estado, Cliente cliente, int? idCadete)
     {
         Id = id;
         Observacion = obs;
         Estado = estado;
         Cliente = cliente;
+        IdCadete = idCadete;
     }
 }
 

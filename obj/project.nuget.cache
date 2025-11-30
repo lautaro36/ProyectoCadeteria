@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R/9jJPmWwPI=",
+  "dgSpecHash": "Z/vowkOoAwI=",
   "success": true,
-  "projectFilePath": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlite\\10.0.0\\microsoft.data.sqlite.10.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",

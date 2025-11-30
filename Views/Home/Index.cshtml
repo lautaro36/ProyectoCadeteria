@@ -6,3 +6,34 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+ <div class="row g-4 w-100" style="max-width: 900px;">
+
+                <!-- Tarjeta de Gestión de Productos -->
+                <div class="col-md-6">
+                    <div class="card shadow-lg border-0 h-100">
+                        <div class="card-body p-4 text-center">
+                            <i class="bi bi-box-seam display-4 text-warning mb-3"></i>
+                            <h2 class="h3 card-title fw-bold">Gestión de Productos</h2>
+                            <p class="card-text text-muted">Visualice, agregue o modifique el inventario de productos disponibles.</p>
+                            <a asp-controller="Productos" asp-action="Index" class="btn btn-warning mt-3 w-100">
+                                <i class="bi bi-list-check me-2"></i> Ir al Listado de Productos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta de Gestión de Presupuestos -->
+                <div class="col-md-6">
+                    <div class="card shadow-lg border-0 h-100">
+                        <div class="card-body p-4 text-center">
+                            <i class="bi bi-currency-dollar display-4 text-success mb-3"></i>
+                            <h2 class="h3 card-title fw-bold">Gestión de Presupuestos</h2>
+                            <p class="card-text text-muted">Cree, modifique y revise los presupuestos para clientes.</p>
+                            <a asp-controller="Presupuestos" asp-action="Index" class="btn btn-success mt-3 w-100">
+                                <i class="bi bi-journal-text me-2"></i> Ir al Listado de Presupuestos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>

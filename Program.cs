@@ -1,4 +1,23 @@
+using ProyectoCadeteria.Repositories;
+using ProyectoCadeteria.Options;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<DatabaseOptions>(
+    builder.Configuration.GetSection("DatabaseOptions"));
+
+builder.Services.AddScoped<ICadeteriaRepository>(provider =>
+{
+    var options = provider.GetRequiredService<IOptions<DatabaseOptions>>();
+    return new CadeteriaRepository(options);
+});
+
+builder.Services.AddScoped<ICadeteRepository>(provider =>
+{
+    var options = provider.GetRequiredService<IOptions<DatabaseOptions>>();
+    return new CadeteRepository(options);
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

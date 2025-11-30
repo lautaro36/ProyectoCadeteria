@@ -6,5 +6,5 @@ namespace ProyectoCadeteria.Repositories;
 public interface ICadeteRepository
 {
     public SqliteConnection GetOpenConnection();
-    public List<Pedido> GetPedidos();
+    public List<Pedido> GetPedidos(int IdCadete);
 }
