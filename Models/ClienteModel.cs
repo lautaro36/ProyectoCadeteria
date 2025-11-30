@@ -1,15 +1,15 @@
 namespace ProyectoCadeteria.Models;
 
-public class ClienteModel
+public class Cliente
 {
     public int? Id { get; set; }
     public string? Nombre { get; set; }
     public string? Direccion { get; set; }
     public string? Telefono { get; set; }
 
-    public ClienteModel(){}
+    public Cliente(){}
 
-    public ClienteModel(int? id, string? nombre, string? direccion, string? telefono)
+    public Cliente(int? id, string? nombre, string? direccion, string? telefono)
     {
         Id = id;
         Nombre = nombre;

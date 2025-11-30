@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {}
+    "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {
+    "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
+        "projectUniqueName": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
         "projectName": "ProyectoCadeteria",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
+        "projectPath": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\ProyectoCadeteria.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\obj\\",
+        "outputPath": "c:\\Users\\ASUS\\Desktop\\Facultad\\Taller-de-lenguajes-2\\repaso_segundo_parcial\\ProyectoCadeteria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

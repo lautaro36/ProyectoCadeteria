@@ -1,19 +1,20 @@
 namespace ProyectoCadeteria.Models;
 
-public class PedidoModel
-{
-    public int? Id {get; set;}
-    public string? Observacion {get; set;}
-    public EstadosPosibles Estado {get; set;}
-    // private readonly IClienteRepo _cliente;
-    public int? ClienteId {get;set;}
+public class Pedido
+{//suele no ponerse Model en los models, por convencion
+    public int? Id { get; set; }
+    public string? Observacion { get; set; }
+    public EstadosPosibles Estado { get; set; }
+    public Cliente? Cliente { get; set; }
+    public int? IdCadete { get; set; }
+    public Pedido() { }
 
-    public PedidoModel(int? id, string? obs, EstadosPosibles estado, int? clienteId)
+    public Pedido(int? id, string? obs, EstadosPosibles estado, Cliente? cliente)
     {
         Id = id;
         Observacion = obs;
         Estado = estado;
-        ClienteId = clienteId;
+        Cliente = cliente;
     }
 }
 

@@ -1,16 +1,20 @@
-using ProyectoCadeteria.Controllers;
-
 namespace ProyectoCadeteria.Models;
 
-public class CadeteriaModel
+public class Cadeteria
 {
-    public string? Nombre {get;set;}
-    public string? Telefono {get;set;}
-    public List<CadeteModel> ListadoCadetes {get; private set;} = new List<CadeteModel>();
+    public string? Nombre { get; set; }
+    public string? Telefono { get; set; }
+    public List<Cadete> ListadoCadetes { get; private set; } = new List<Cadete>();
 
-    public CadeteriaModel(string? nombre, string? telefono)
+    public Cadeteria() { }
+    public Cadeteria(string? nombre, string? telefono)
     {
         Nombre = nombre;
         Telefono = telefono;
+    }
+
+    public void GetPedidos(List<Cadete> listadoCadetes)
+    {
+        ListadoCadetes = listadoCadetes;
     }
 }
